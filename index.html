@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reese is cool </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- header --> 
+    <div id="header">
+<div class="container">
+        <nav> 
+          <img src="images/logo.png" alt="logo" class="logo">
+          <ul id="sidemenu"> 
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="row">
+           <div class="header-col-1">
+            <div class="header-text">
+              <h1> Hey, I'm <span> Reese</span> front-end web developer <h1>
+                <p><span> Tampa Bay, Flordia</span></p>
+                <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                  <a href="#" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                  <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+            </div>
+           </div> 
+           <div class="header-col-2">
+            <img src="images/blueberries.png" alt="btm"> 
+            
+           </div>
+       </div>
+  </div>
+  <!--about-->
+  <div id="about"> 
+  <div class="container"> 
+        <div class="row"> 
+             <div class="about-col-1"> 
+             <img src="images/smile.png" alt="profile pic">
+            </div>
+            <div class="about-col-2"> 
+                <h1 class="sub-title">about me</h1>
+                <p> hey my name is Reese. i am in 8th grade and go to Keswick Christian school.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onClick="opentab('skills')">skills</p>
+                <p class="tab-links" onClick="opentab('experience')">experience</p>
+                <p class="tab-links" onClick="opentab('education')">education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                  <ul> 
+                        <li><span>2019-2020</span><br> website development intership</li>
+                        <li><span>2020-2022</span><br> IOS apps camp </li>
+                        <li><span>2023-current</span><br> designing web/app program</li>
+                  </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                  <ul> 
+                        <li><span>2021</span><br> website development intership</li>
+                        <li><span>2022</span><br> IOS apps camp </li>
+                        <li><span>2023-current</span><br> designing web/app program</li>
+                </ul>
+              </div>
+            <div class="tab-contents" id="education">
+                    <ul> 
+                          <li><span>web devlopment</span><br> computer keyboarding </li>
+                          <li><span>app devlopment</span><br> computer apps </li>
+                          <li><span>UI/UX</span><br> BCT</li>
+                  </ul>
+             </div>
+    </div>
+  </div>
+  </div>
+ 
+
+  <!--services-->
+    <div id="services">
+        <div class="container">
+              <h1 class="sub-title"> my services </h1>
+              <div class="services-list">
+            <div>
+                <i class="fa-solid fa-handshake"></i>
+                <h2> join your team</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#contact">contact me</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> create a website</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#contact">contact me</a>
+          </div>
+              <div>
+                <i class="fa-solid fa-clipboard"></i>
+                <h2> project assistance</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#contact">contact me</a>
+            </div>
+          </div>
+        </div>
+        
+       <!--portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title"> my portfolio</h1>
+    <div class="portfolio-list">
+      <div class="portfolio-item">
+        <img src="images/ts.png" alt="work1">
+        <div class="layer">
+          <h3>travel template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+          <a href="#" target="blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> <!-- Close the <a> tag properly -->
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/store.png" alt="work1">
+        <div class="layer">
+          <h3>eCommerce template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+          <a href="#" target="blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> <!-- Close the <a> tag properly -->
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/ti.png" alt="work1">
+        <div class="layer">
+          <h3>blog template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+          <a href="#" target="blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> <!-- Close the <a> tag properly -->
+        </div>
+      </div>
+    </div>
+    <a href="#" target="_blank" class="btn"> see portfolio</a>
+  </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+     <div class="container">
+         <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> reese@gooddays.co</p>
+                <p><i class="fa-solid fa-square-phone"></i> (727) 509-9226</p>
+                <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                  <a href="#" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                  <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <a href="#" download class="btn btn2"> download resume</a>
+              </div>
+
+              <div class="contact-right">
+                <form onsubmit="">
+                  <input type="text" name="name" id="name" placeholder="your name" required>
+                  <input type="text" name="Email" id="email" placeholder="your email" required>
+                  <textarea name="message" id="message" rows="6" placeholder="your message"></textarea>
+                </form>
+              </div>
+         </div>
+     </div>
+     </div>
+        
+
+
+   <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/eb7f5c47ec.js" crossorigin="anonymous">
+    
+  </script>
+</body> 
+</html>
